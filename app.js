@@ -9,10 +9,10 @@ const app = Vue.createApp({
         showAlert() {
             alert('Button is pressed')
         },
-        setFirstUserInput(event) {
+        setUserInput(event) {
             this.userInput = event.target.value;
         },
-        confirmInput (event) {
+        setConfirmedInput (event) {
             this.confirmedUserInput = event.target.value;
         }
     }
